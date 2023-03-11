@@ -57,7 +57,7 @@ nav a:hover{
   font-family: 'Concert One', cursive;
   background-color: #0096875f;
   color: #062724;
-  padding-left: 8px;
+  padding: 10px;
 
   }
 #imagem2, .imagem1 {
@@ -86,6 +86,7 @@ nav a:hover{
 }
 #imagem2{
   background: rgba(0, 0, 0, 0.82) url(../imagens/futebol-americano.jpg) no-repeat;
+  background-position: left center;
   background-size: cover;
   background-attachment: fixed;
 }
