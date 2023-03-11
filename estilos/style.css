@@ -1,0 +1,105 @@
+@charset "UTF-8";
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /*font-family: 'Sriracha', cursive;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  */
+  
+}
+html,body{
+  width: 100vw;
+  height: 100vh;
+}
+header{
+  background-color: #196d6489;
+  padding-top: 50px;
+  
+}
+header h1{
+  font-family: 'Concert One', cursive;
+  color: #062724;
+  font-size: 3.5em;
+  font-weight: bolder;
+  text-align: center;
+  padding-bottom: 50px;
+ 
+}
+nav{
+  padding: 15px 5px;
+
+}
+header nav a {
+  font-family: 'Concert One', cursive;
+  background-color: #00635A;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px;
+}
+nav a:hover{
+  background-color: #009688;
+  border-radius: 5px;
+}
+.container{
+  font-family: 'Concert One', cursive;
+  width: 90vw;
+  margin: auto;
+  text-align: justify;
+  padding: 20px;
+  transform: width .3s, height .3s;
+  transition-timing-function: ease;
+}
+
+.container h2{
+  font-family: 'Concert One', cursive;
+  background-color: #0096875f;
+  color: #062724;
+  padding-left: 8px;
+
+  }
+#imagem2, .imagem1 {
+  background: rgba(0, 0, 0, 0.82);
+  
+  
+}
+.imagem1{
+  background: rgba(0, 0, 0, 0.82) url(../imagens/futebol.jpg) no-repeat;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#imagem2 p, .imagem1 p{
+  
+  line-height: 2em;
+  color:white;
+  padding: 10px ;
+  background: rgba(0, 0, 0, 0.592);
+  text-indent: 1.5em;
+}
+#normal .container p{
+  line-height: 2em;
+  padding: 10px ;
+  text-indent: 1.5em;
+}
+#imagem2{
+  background: rgba(0, 0, 0, 0.82) url(../imagens/futebol-americano.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+footer{
+  background-color: #196d6489;
+  padding-top: 20px;
+}
+footer p{
+  font-family: 'Concert One', cursive;
+  text-align: center;
+}
+footer a{
+  text-decoration: none;
+  color: #062724;
+  ;
+}
