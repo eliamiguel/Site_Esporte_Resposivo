@@ -10,16 +10,22 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
-<body>
+<body onresize="mudouTamanho()">
   <header>
-    <h1>Meu site de Esportes</h1>
-    <nav>
-        <a href="#">Opção 1</a></li>
-        <a href="#">Opção 2</a></li>
-        <a href="#">Opção 3</a></li>
-        <a href="#">Opção 4</a></li>
-    </nav>
+      <h1>Meu site de Esportes</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+          menu</span>
+    <menu id="menu">
+          <ul>
+            <li><a href="#">Opção 1</a></li>
+            <li><a href="#">Opção 2</a></li>
+            <li><a href="#">Opção 3</a></li>
+            <li><a href="#">Opção 4</a></li>
+          </ul>
+        </div>
+      </menu>
   </header>
     <section id="normal">
       <div class="container">
@@ -27,7 +33,7 @@
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque in, voluptate ipsam placeat tenetur magnam recusandae totam hic consectetur eum! Voluptate, porro. Excepturi at commodi molestiae? Fuga consequatur quo soluta?Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet obcaecati minima pariatur veniam neque, sint odio repellendus ullam molestiae earum ipsa saepe beatae sunt quaerat libero vitae natus ducimus hic.</p>
       </div>
     </section>
-    <section class="imagem1" id="imagem1" >
+    <section class="imagem1"  >
       <div class="container">
         <h2>Segundo Topico</h2>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque in, voluptate ipsam placeat tenetur magnam recusandae totam hic consectetur eum! Voluptate, porro. Excepturi at commodi molestiae? Fuga consequatur quo soluta?Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet obcaecati minima pariatur veniam neque, sint odio repellendus ullam molestiae earum ipsa saepe beatae sunt quaerat libero vitae natus ducimus hic.</p>
@@ -55,8 +61,23 @@
       <div class="container">
         <p> &copy;Site Criado por <a href="https://www.facebook.com/eliaspereiramiguel.elias" target="_blank">Elias Perreira Miguel</a></p>
       </div>
-
-  
   </footer>
+  <script>
+   /* function mudouTamanho(){
+      if(window.innerWidth>=768){
+        menu.style.display='none'
+      } else{
+        menu.stype.display='block'
+      }
+    }*/
+    function clickMenu(){
+      if(menu.style.display =='block'){
+        menu.style.display= 'none'
+      } else{
+        menu.style.display = 'block'
+      }
+    }
+  </script>
+
 </body>
 </html>

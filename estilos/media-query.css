@@ -13,6 +13,18 @@
     width: 70vw;
     margin: auto;
   }
+  span#burguer{
+   display: none;
+    
+  }
+  menu{display: block;}
+  menu ul li{
+    display: inline-block;
+    background-color:  #388981ac ;
+  }
+  li{
+    padding: 15px;
+  }
 }
 @media screen and (min-width:992px){
   .container{
@@ -20,6 +32,19 @@
     height:100%;
 
     margin:auto;
+  }
+  span#burguer{
+    display: none;
+  }
+menu {
+    display: block;
+  }
+menu ul li{
+    display: inline-block;
+    background-color:   #388981ac ;
+  }
+  li{
+    padding: 15px;
   }
 
 }

@@ -3,16 +3,23 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+
   /*font-family: 'Sriracha', cursive;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   */
   
 }
+::-webkit-scrollbar{
+  width: 0px;
+  height: px;
+}
 html,body{
   width: 100vw;
   height: 100vh;
+
 }
 header{
+
   background-color: #196d6489;
   padding-top: 50px;
   
@@ -20,29 +27,68 @@ header{
 header h1{
   font-family: 'Concert One', cursive;
   color: #062724;
-  font-size: 3.5em;
+  font-size:3.5em;
   font-weight: bolder;
   text-align: center;
   padding-bottom: 50px;
- 
 }
-nav{
-  padding: 15px 5px;
 
+.men{
+  /*display:grid;
+  justify-content: flex-end;
+*/
 }
-header nav a {
-  font-family: 'Concert One', cursive;
-  background-color: #00635A;
+
+
+menu {display: none;
+  background-color: #0b433dcf;
+  padding: 10px;
+  
+}
+span#burguer{
+  font-size:1.5em ;
+  
+}
+menu ul{
+  list-style-type: none;
+}
+li{
+  display:block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 50px;
+  border:  1px solid #196d64a2 ;
+  
   border-radius: 5px;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 8px;
 }
-nav a:hover{
+li:hover{
   background-color: #009688;
   border-radius: 5px;
 }
+
+menu a{
+  display: block;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family:'Concert One', cursive;
+}
+
+span{
+  color: white;
+  background-color:#05443e5f ;
+  width: 100vw;
+  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align:center;
+  cursor: pointer;
+}
+span:hover{
+  background-color: #009688;
+}
+
 .container{
   font-family: 'Concert One', cursive;
   width: 90vw;
@@ -51,6 +97,7 @@ nav a:hover{
   padding: 20px;
   transform: width .3s, height .3s;
   transition-timing-function: ease;
+  
 }
 
 .container h2{
@@ -102,5 +149,5 @@ footer p{
 footer a{
   text-decoration: none;
   color: #062724;
-  ;
+  
 }
